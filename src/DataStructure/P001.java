@@ -2,7 +2,7 @@ package DataStructure;
 
 import java.util.Scanner;
 
-public class P001 {
+public class P001 { //  숫자의 합 구하기
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt(); // 숫자의 개수 N 입력
@@ -12,6 +12,7 @@ public class P001 {
         for (int i = 0; i < cNum.length; i++){
             sum += cNum[i] - '0'; /* 문자를 숫자로 변경 */
         }
+        System.out.println("sum: " + sum);
     }
 }
 
